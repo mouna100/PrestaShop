@@ -49,6 +49,8 @@ function setUpCheckout() {
   $('.js-gift-checkbox').on('click', (event) => {
     $('#gift').collapse('toggle');
   });
+  
+  $('#order-items').removeClass('col-md-8').addClass('col-md-12');
 }
 
 $(document).ready(() => {
