@@ -24,13 +24,13 @@
  *}
 <div id="order-items" class="col-md-8">
 
-  {block name='order_items_table_head'}
+  {block name='order-items-table-head'}
     <h3 class="card-title h3">{l s='Order items' d='Shop.Theme.Checkout'}</h3>
   {/block}
 
   <div class="order-confirmation-table">
 
-    {block name='order_confirmation_table'}
+    {block name='order-confirmation-table'}
       {foreach from=$products item=product}
         <div class="order-line row">
           <div class="col-sm-2 col-xs-3">
